@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+authors:
+- family-names: "Auriau"
+  given-names: "Pierre"
+title: "Automating cortical sulcus labelling for non-human primates."
+url: "https://github.com/PierreAuriau/sulcinter"
+preferred-citation:
+  type: conference-paper
+  authors:
+  - family-names: "Auriau"
+    given-names: "Pierre"
+  - family-names: "Cagna"
+    given-names: "Bastien"
+  - family-names: "Rivière"
+    given-names: "Denis"
+  - family-names: "Foubet"
+    given-names: "Ophélie"
+  - family-names: "Hopkins"
+    given-names: "William D"
+  - family-names: "Mangin"
+    given-names: "Jean-François"
+  conference: "28th Organization for Human Brain Mapping (OHBM)"
+  title: "Benchmarking transfer learning from Human to Chimpanzee for sulcus recognition."
+  year: 2022
