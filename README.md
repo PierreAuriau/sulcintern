@@ -1,3 +1,22 @@
+# Benchmarking transfer learning from Human to Chimpanzee for sulcus recognition
+
+This work has been presented at the 28th conference of the Organization for Human Brain Mapping (OHBM) in Glasgow (2022). You can find the poster [here](https://hal.science/hal-05448426).
+
+If you find this work useful for your research, please cite our work:
+
+```bibtex
+@inproceedings{Auriau_Benchmarking_transfer_learning_2022,
+author = {Auriau, Pierre and Cagna, Bastien and Rivière, Denis and Foubet, Ophélie and Hopkins, William D and Mangin, Jean-François},
+series = {28th Organization for Human Brain Mapping (OHBM)},
+title = {{Benchmarking transfer learning from Human to Chimpanzee for sulcus recognition.}},
+year = {2022}
+}
+```
+
+### Objectif
+
+L'objectif de ce projet est d'adapter le modèle de deep learning de labellisation automatique des sillons corticaux pour les données de chimpanzés. Le modèle précédent est un réseau convolutionnel UNET-3D entraîné sur des cerveaux humains, ce modèle a été inclus dans Brainvisa. Le fonctionnement du modèle est décrit dans l'article : Léonie Borne, Denis Rivière, Martial Mancip, Jean-François Mangin, *Automatic labeling of cortical sulci using patch-or CNN-based segmentation techniques combined with bottom-up geometric constraints*, Medical Image Analysis, 2020, https://doi.org/10.1016/j.media.2020.101651 .
+
 ### Descritption
 
 Ce programme permet de réaliser l'apprentissage du modèle UNET-3D pour la labellisation automatique des sillons corticaux (modèle dans brainvisa).
